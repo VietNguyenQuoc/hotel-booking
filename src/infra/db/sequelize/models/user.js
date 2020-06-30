@@ -4,8 +4,6 @@ module.exports = (sequelize, DataTypes) => {
     firstName: DataTypes.STRING,
     lastName: DataTypes.STRING,
     confirm: DataTypes.BOOLEAN,
-    verifyToken: DataTypes.TEXT,
-    resetPasswordToken: DataTypes.TEXT,
   }, {});
 
   User.associate = function (models) {

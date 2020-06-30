@@ -6,6 +6,7 @@ const VERIFY_CODE_EXPIRE = "Verify code is expired";
 const INVALID_RESEND_VERIFY = "The email is activated/confirmed. Cannot resend verification code.";
 const INVALID_RESET_PASSWORD_TOKEN = "Reset password token is invalid";
 const INVALID_CONFIRM_PASSWORD = "Confirm password did not match";
+const RESET_PASSWORD_TOKEN_EXPIRED = "Reset password token is expired.";
 
 
 module.exports = {
@@ -16,5 +17,6 @@ module.exports = {
   VERIFY_CODE_EXPIRE,
   INVALID_RESEND_VERIFY,
   INVALID_RESET_PASSWORD_TOKEN,
-  INVALID_CONFIRM_PASSWORD
+  INVALID_CONFIRM_PASSWORD,
+  RESET_PASSWORD_TOKEN_EXPIRED
 };

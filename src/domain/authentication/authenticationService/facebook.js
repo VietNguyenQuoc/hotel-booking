@@ -1,3 +1,4 @@
+require('dotenv').config();
 const url = require('url');
 const redirectUrl = url.resolve(process.env.SERVER_URL, '/auth/facebook/callback');
 const axios = require('axios');

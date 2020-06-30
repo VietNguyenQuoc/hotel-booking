@@ -301,3 +301,1061 @@
   level: 'error',
   timestamp: '2020-06-26T14:39:59.791Z'
 }
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-26T15:57:51.393Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-26T15:57:51.454Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-26T15:57:51.481Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-26T15:57:51.492Z'
+}
+{
+  message: "TypeError: Cannot read property 'needVerify' of undefined\n" +
+    '    at Object.signUp (/Users/2359media/node-projects/nodejs-boilerplate/src/domain/authentication/authenticationService/index.js:15:67)\n' +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/src/domain/authentication/authentication.Controllers.js:18:49\n' +
+    '    at Layer.handle [as handle_request] (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/src/app/middlewares/validator.js:7:3\n' +
+    '    at Layer.handle [as handle_request] (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:174:3)\n' +
+    '    at router (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:317:13)\n' +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:284:7\n' +
+    '    at Function.process_params (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:174:3)\n' +
+    '    at router (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/express/lib/router/layer.js:95:5)',
+  level: 'error',
+  timestamp: '2020-06-28T04:56:21.982Z'
+}
+{
+  message: 'Error: Email has already exists.\n' +
+    '    at Object.signUp (/Users/2359media/node-projects/nodejs-boilerplate/src/domain/authentication/authenticationService/index.js:17:23)\n' +
+    '    at async /Users/2359media/node-projects/nodejs-boilerplate/src/domain/authentication/authentication.Controllers.js:18:21',
+  level: 'error',
+  timestamp: '2020-06-28T04:57:54.201Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:05:17.672Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:05:17.699Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:05:17.727Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:05:17.742Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:07:03.224Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:07:03.252Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:07:03.299Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:07:03.317Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:40:17.484Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:40:17.512Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:40:17.537Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:40:17.550Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:41:07.767Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:41:07.792Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:41:07.857Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:41:07.875Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:45:08.406Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:45:08.433Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:45:08.464Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T08:45:08.477Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:47:32.114Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:47:32.138Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:47:32.167Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:47:32.181Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:50:42.258Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:50:42.286Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:50:42.310Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:50:42.324Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:51:46.140Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:51:46.170Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:51:46.203Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:51:46.221Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:53:24.753Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:53:24.783Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:53:24.807Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:53:24.821Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:56:52.868Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:56:52.896Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:56:52.920Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:56:52.934Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:58:28.181Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:58:28.215Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:58:28.244Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T09:58:28.262Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:10:21.868Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:10:21.900Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:10:21.925Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:10:21.939Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:11:01.732Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:11:01.758Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:11:01.785Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:11:01.802Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:18:27.410Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:18:27.447Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:18:27.483Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:18:27.501Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:22:50.268Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:22:50.299Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:22:50.332Z'
+}
+{
+  message: "SequelizeAccessDeniedError: Access denied for user ''@'localhost' (using password: NO)\n" +
+    '    at /Users/2359media/node-projects/nodejs-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19\n' +
+    '    at tryCatcher (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/util.js:16:23)\n' +
+    '    at Promise._settlePromiseFromHandler (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:547:31)\n' +
+    '    at Promise._settlePromise (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:604:18)\n' +
+    '    at Promise._settlePromise0 (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:649:10)\n' +
+    '    at Promise._settlePromises (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/promise.js:725:18)\n' +
+    '    at _drainQueueStep (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:93:12)\n' +
+    '    at _drainQueue (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:86:9)\n' +
+    '    at Async._drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:102:5)\n' +
+    '    at Async.drainQueues (/Users/2359media/node-projects/nodejs-boilerplate/node_modules/bluebird/js/release/async.js:15:14)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:97:5)',
+  level: 'error',
+  timestamp: '2020-06-28T10:22:50.349Z'
+}

@@ -39,7 +39,6 @@ describe('controller.authentication', () => {
           "firstName": "Nguyen Quoc",
           "lastName": "Viet"
         });
-      console.log(response.body);
       expect(response.status).toBe(400);
       expect(response.text).toMatch('exist');
     });
