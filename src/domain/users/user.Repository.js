@@ -1,4 +1,4 @@
-const { sequelize, User, UserCredential } = require('../../infra/db/sequelize/models');
+const { sequelize, User, UserCredential, UserRole, Permission, RolePermission } = require('../../infra/db/sequelize/models');
 
 const createUser = async userDto => {
   return await User.create(userDto);
@@ -8,8 +8,18 @@ const getUsers = async () => {
   return await User.findAll();
 }
 
-const getUserById = async userId => {
-  return await User.findByPk(userId);
+const getUserById = async (userId, role = false, permission = false) => {
+  let where = {};
+  if (role === true) {
+    where.include = [{
+      model: UserRole,
+      as: 'Role'
+    }];
+    if (permission === true) {
+      where.include[0].include = Permission;
+    }
+  }
+  return await User.findByPk(userId, where);
 }
 
 const getUserByEmail = async (email, options) => {
@@ -22,25 +32,22 @@ const getUserByEmail = async (email, options) => {
 const getUserByEmailWithCredentials = async (email) => {
   return await User.findOne({
     where: { email },
-    include: UserCredential
-  })
-}
-
-const getUserByToken = async token => {
-  return await User.findOne({
-    where: { verifyToken: token },
+    include: [
+      {
+        model: UserCredential,
+      },
+      {
+        model: UserRole,
+        as: 'Role',
+        include: Permission
+      }
+    ]
   });
 }
 
-const getUserByResetToken = async token => {
-  return await User.findOne({
-    where: { resetPasswordToken: token }
-  });
-}
-
-const updateUserByEmail = async (email, userDto) => {
+const updateUserByEmail = async (email, userDto, where) => {
   await User.update(userDto, {
-    where: { email }
+    where: { email, ...where }
   });
 }
 
@@ -64,16 +71,19 @@ const findOrCreateUser = async ({ email, defaultValues }) => {
   });
 }
 
+const getRoleByName = async roleName => {
+  return await UserRole.findOne({ where: { name: roleName } });
+}
+
 module.exports = {
   createUser,
   getUserById,
   getUsers,
   getUserByEmail,
   getUserByEmailWithCredentials,
-  getUserByToken,
-  getUserByResetToken,
   updateUserByEmail,
   deleteUser,
   truncateUsers,
-  findOrCreateUser
+  findOrCreateUser,
+  getRoleByName,
 };

@@ -3,13 +3,13 @@ module.exports = ({
   firstName,
   lastName,
   confirm = false,
-  verifyToken
+  roleId,
 }) => {
   return ({
     email,
     firstName,
     lastName,
     confirm,
-    verifyToken
+    roleId,
   });
 }

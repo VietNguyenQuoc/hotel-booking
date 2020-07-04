@@ -2,7 +2,7 @@ module.exports = {
   "development": {
     "username": "root",
     "password": process.env.DB_PASSWORD || null,
-    "database": "node_boilerplate_development",
+    "database": "hotel_booking",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

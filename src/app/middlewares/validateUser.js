@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 const redisClient = require('../../infra/db/redis');
+const userServices = require('../../domain/users/user.services');
 
 const validateUser = async (req, res, next) => {
   try {

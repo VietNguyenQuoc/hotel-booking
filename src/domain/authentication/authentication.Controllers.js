@@ -29,6 +29,7 @@ router.post('/login', async (req, res) => {
     const tokens = await authenticationService.login({ email, password });
     return res.status(200).json(tokens);
   } catch (e) {
+    logger.error(e.stack);
     return res.status(400).send(e.message);
   }
 });

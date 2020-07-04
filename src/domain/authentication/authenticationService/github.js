@@ -1,7 +1,7 @@
 const url = require('url');
 const redirectUrl = url.resolve(process.env.SERVER_URL, '/auth/github/callback');
 const axios = require('axios');
-const userService = require('../../users/user.Service');
+const userService = require('../../users/user.services');
 
 const getRedirectUrl = () => {
   return `https://github.com/login/oauth/authorize?client_id=${process.env.GITHUB_CLIENT_ID}&redirect_uri=${redirectUrl}`;

@@ -1,27 +1,21 @@
 'use strict';
 
 module.exports = {
-  up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Users', {
+  up: async (queryInterface, Sequelize) => {
+    await queryInterface.createTable('Rooms', {
       id: {
         type: Sequelize.INTEGER,
-        primaryKey: true,
         allowNull: false,
+        primaryKey: true,
         autoIncrement: true
       },
-      email: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      firstName: {
-        type: Sequelize.STRING,
-      },
-      lastName: {
-        type: Sequelize.STRING,
-      },
-      roleId: {
+      roomTypeId: {
         type: Sequelize.INTEGER,
         allowNull: false
+      },
+      deleted: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: 0
       },
       createdAt: {
         type: Sequelize.DATE,
@@ -32,9 +26,10 @@ module.exports = {
         allowNull: false
       },
     });
-  },
 
+    await queryInterface.addIndex('Rooms', { fields: ['roomTypeId'] });
+  },
   down: (queryInterface, _Sequelize) => {
-    return queryInterface.dropTable('Users');
+    return queryInterface.dropTable('Rooms');
   }
 };

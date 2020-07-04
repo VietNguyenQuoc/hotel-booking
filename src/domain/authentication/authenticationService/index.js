@@ -1,8 +1,8 @@
-const userRepository = require('../../users/user.Repository');
-const UserModel = require('../../users/user.Model');
-const userCredentialRepository = require('../../users/userCredential.Repository');
-const UserCredentialModel = require('../../users/userCredential.Model');
-const authenticationErrors = require('../authentication.Errors');
+const userRepository = require('../../users/user.repository');
+const UserModel = require('../../users/user.model');
+const userCredentialRepository = require('../../users/userCredential.repository');
+const UserCredentialModel = require('../../users/userCredential.model');
+const authenticationErrors = require('../authentication.errors');
 const facebookService = require('./facebook');
 const githubService = require('./github');
 const googleService = require('./google');
@@ -21,11 +21,12 @@ const signUp = async ({ email, password, firstName, lastName }, { needVerify = f
   const salt = await bcrypt.genSalt(10);
   const hashPassword = await bcrypt.hash(password, salt);
 
-  let userDto;
+  const userRole = await userRepository.getRoleByName('user');
+  const userDto = UserModel({ email, firstName, lastName, roleId: userRole.id });
   let returnMessage;
 
   if (needVerify) {
-    userDto = UserModel({ email, firstName, lastName, confirm: false });
+    userDto.confirm = false
     returnMessage = `We will send you an email to ${email} to confirm the registration.`;
 
     const verifyToken = generateToken({ email }, { expiresIn: '30m' });
@@ -36,7 +37,7 @@ const signUp = async ({ email, password, firstName, lastName }, { needVerify = f
       html: `<p>Click to <a href=${process.env.SERVER_URL}:${process.env.PORT}/auth/verify?code=${verifyToken}>this link</a> to verify account: </p> `
     });
   } else {
-    userDto = UserModel({ email, firstName, lastName, confirm: true });
+    userDto.confirm = true
     returnMessage = `Your registration is completed successfully. Please login.`
   }
   const user = await userRepository.createUser(userDto);
@@ -53,11 +54,12 @@ const login = async ({ email, password }) => {
   const hashedPassword = user.UserCredentials.find(e => e.ExternalType === 'password').ExternalId;
   const isValid = await bcrypt.compare(password, hashedPassword);
   if (!isValid) throw Error(authenticationErrors.INVALID_CREDENTIAL);
-
   if (!user.confirm) throw Error(authenticationErrors.EMAIL_NOT_VERIFIED);
 
-  const accessToken = generateToken({ userId: user.id }, { expiresIn: '30m' });
-  const refreshToken = generateToken({ userId: user.id }, { expiresIn: '7d' });
+  const permissions = user.Role.Permissions.map(e => e.name);
+
+  const accessToken = generateToken({ userId: user.id, permissions }, { expiresIn: '30m' });
+  const refreshToken = generateToken({ userId: user.id, permissions }, { expiresIn: '7d' });
   redisClient.zadd(`tokens:${user.id}`, Date.now() + 7 * 24 * 60 * 60 * 1000, refreshToken);
   // Flush all the expired gabage tokens
   redisClient.zremrangebyscore(`tokens:${user.id}`, '-inf', Date.now());

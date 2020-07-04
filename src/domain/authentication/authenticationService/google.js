@@ -1,7 +1,7 @@
 const url = require('url');
 const redirectUrl = url.resolve(process.env.SERVER_URL, '/auth/google/callback');
 const { google } = require('googleapis');
-const userService = require('../../users/user.Service');
+const userService = require('../../users/user.services');
 
 const oauth2Client = new google.auth.OAuth2(
   process.env.GOOGLE_CLIENT_ID,
