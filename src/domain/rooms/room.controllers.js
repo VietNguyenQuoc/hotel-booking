@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
 
   if (!toDate) toDate = moment(fromDate).add(1, 'day');
 
-  roomServices.getRoomsByRangeDate(moment(fromDate).format('YYYY-MM-DD'), moment(toDate).format('YYYY-MM-DD'))
+  roomServices.getRoomTypesByRangeDate(moment(fromDate).format('YYYY-MM-DD'), moment(toDate).format('YYYY-MM-DD'))
     .then(rooms => {
       return res.status(200).json(rooms.map(room =>
         _.pick(room, ['id', 'name', 'price', 'quantity', 'description'])

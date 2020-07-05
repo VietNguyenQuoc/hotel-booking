@@ -14,7 +14,7 @@ const validateUser = async (req, res, next) => {
 
     const userRole = await userServices.getUserRoleById(decoded.userId);
     const userPermissions = await roleServcies.getInMemoryRolePermissionsByRole(userRole);
-    const isOperable = userPermissions.some(({ method, resource }) => req.method === method && isValidResource(req.originalUrl, resource));
+    const isOperable = userPermissions.some(({ method, resource }) => isValidMethod(req.method, method) && isValidResource(req.originalUrl, resource));
     if (!isOperable) throw Error();
 
     req.userInfo = decoded;
@@ -40,6 +40,10 @@ const validateRefreshToken = async (req, res, next) => {
   } catch (e) {
     return res.status(403).send("Not authorized.");
   }
+}
+
+function isValidMethod(requestMethod, permissionMethod) {
+  return permissionMethod === '*' ? true : requestMethod === permissionMethod;
 }
 
 function isValidResource(requestResource, permissionResource) {

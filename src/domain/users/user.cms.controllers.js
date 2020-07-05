@@ -17,6 +17,14 @@ router.post('/permissions', async (req, res) => {
     .catch((e) => { return res.status(400).send(e.message) });
 });
 
+router.delete('/permissions/:id', async (req, res) => {
+  const { id } = req.params;
+
+  permissionServices.deletePermission(id)
+    .then(() => { return res.status(200).send('Delete permission successfully.') })
+    .catch(e => { return res.status(400).send(e.message) });
+})
+
 router.post('/grantPermission', async (req, res) => {
   const { roleId, permissionIds } = req.body;
 
