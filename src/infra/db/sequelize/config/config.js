@@ -4,7 +4,10 @@ module.exports = {
     "password": process.env.DB_PASSWORD || null,
     "database": "hotel_booking",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "dialectOptions": {
+      decimalNumbers: true
+    }
   },
   "test": {
     "username": process.env.DB_USERNAME,

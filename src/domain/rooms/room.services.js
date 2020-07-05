@@ -25,20 +25,22 @@ const getAvailableRoomsByRangeDate = async ({ roomTypeId, quantity, fromDate, to
   return rooms.filter(room => availableRoomIds.includes(room.id));
 }
 
-const getRoomsByRangeDate = async (fromDate, toDate) => {
+// Return a set of room types that available on a range of date, with remaining quantity
+const getRoomTypesByRangeDate = async (fromDate, toDate) => {
   const [roomTypes, roomBookingsCount] = await Promise.all([
     roomTypeRepository.getAllRoomTypes(),
     bookingRepository.countBookedRoomsOnRangeDate(fromDate, toDate)
   ]);
 
   const availableRoomTypes = roomTypes.filter(type => {
-    const roomBookingCount = parseInt(roomBookingsCount.find(e => e.roomTypeId === type.id)?.count || 0, 10);
+    const roomBookingCount = roomBookingsCount.find(e => e.roomTypeId === type.id)?.count || 0;
     return type.quantity > roomBookingCount;
   });
 
+  // Replace the inventory quantity with remaining quantity
   return availableRoomTypes.map(type => ({
-    ..._.pick(type, ['id', 'type', 'description', 'price']),
-    quantity: type.quantity - parseInt(roomBookingsCount.find(e => e.roomTypeId === type.id)?.count || 0, 10)
+    ..._.omit(type.get(), 'quantity'),
+    quantity: type.quantity - (roomBookingsCount.find(e => e.roomTypeId === type.id)?.count || 0) // You remove the brackets, you die
   }));
 }
 
@@ -63,6 +65,6 @@ module.exports = {
   createRoomType,
   updateRoomType,
   deleteRoomType,
-  getRoomsByRangeDate,
+  getRoomTypesByRangeDate,
   getAvailableRoomsByRangeDate
 }

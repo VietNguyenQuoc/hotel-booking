@@ -8,6 +8,7 @@ const VError = require('verror').VError;
 const WError = require('verror').WError;
 const path = require('path');
 const routes = require('./routes');
+const permissionServices = require('../domain/users/permission.services');
 
 process.env.JWT_PRIVATE_KEY = fs.readFileSync(path.resolve('private.key'), 'utf8');
 process.env.JWT_PUBLIC_KEY = fs.readFileSync(path.resolve('public.key'), 'utf8');
@@ -19,6 +20,7 @@ app.use(morgan('tiny'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(routes);
+// permissionServices.bulkCreatePermissions(list(app));
 
 if (process.env.NODE_ENV === 'development') {
   app.use(errorhandler());

@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
   User.associate = function (models) {
     User.hasMany(models.UserCredential);
     User.belongsTo(models.UserRole, { as: 'Role', foreignKey: 'roleId' });
-    User.belongsToMany(models.RoomType, { through: models.Booking, foreignKey: 'userId' });
+    // User.belongsToMany(models.RoomType, { through: models.Booking, foreignKey: 'userId' }); -> This will cause the Booking table's primary key to be excluded
   };
 
   return User;

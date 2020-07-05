@@ -1,6 +1,7 @@
 module.exports = (sequelize, DataTypes) => {
   const Permission = sequelize.define('Permission', {
-    name: DataTypes.STRING,
+    method: DataTypes.STRING,
+    resource: DataTypes.STRING,
     description: DataTypes.TEXT
   }, {});
 

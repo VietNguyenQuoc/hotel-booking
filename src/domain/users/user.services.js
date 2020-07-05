@@ -56,6 +56,11 @@ const changePassword = async (userId, password) => {
   return await userCredentialRepository.updatePassword(userId, password);
 }
 
+const getUserRoleById = async userId => {
+  const user = await userRepository.getUserById(userId, true);
+  return user.Role.name;
+}
+
 module.exports = {
   createUser,
   getUserById,
@@ -67,4 +72,5 @@ module.exports = {
   findOrCreateUserCredential,
   changeRole,
   changePassword,
+  getUserRoleById
 };

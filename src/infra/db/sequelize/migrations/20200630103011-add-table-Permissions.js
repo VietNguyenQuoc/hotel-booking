@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-  up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Permissions', {
+  up: async (queryInterface, Sequelize) => {
+    await queryInterface.createTable('Permissions', {
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
@@ -29,6 +29,8 @@ module.exports = {
         allowNull: false
       },
     });
+
+    await queryInterface.addConstraint('Permissions', ['method', 'resource'], { type: 'UNIQUE' });
   },
 
   down: (queryInterface, _Sequelize) => {
