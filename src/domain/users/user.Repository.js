@@ -22,9 +22,18 @@ const getUserById = async (userId, role = false, permission = false) => {
   return await User.findByPk(userId, where);
 }
 
-const getUserByEmail = async (email, options) => {
+const getUserByEmail = async (email, opts = {}) => {
+  const options = { where: { email } };
+  if (opts.role === true) {
+    options.include = [{
+      model: UserRole,
+      as: 'Role'
+    }];
+    if (opts.permission === true) {
+      options.include[0].include = Permission;
+    }
+  }
   return await User.findOne({
-    where: { email },
     ...options
   });
 }

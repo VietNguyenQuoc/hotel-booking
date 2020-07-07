@@ -1,8 +1,12 @@
-const { Sequelize, Booking, Room } = require('../../infra/db/sequelize/models');
+const { Sequelize, Booking, RoomType } = require('../../infra/db/sequelize/models');
 const { Op } = Sequelize;
 
 const getBookingsByUserId = async userId => {
   return await Booking.findAll({ where: { userId } });
+}
+
+const getBookingById = async (id, opts = {}) => {
+  return await Booking.findByPk(id, opts);
 }
 
 const createBooking = async (bookingDto) => {
@@ -15,16 +19,7 @@ const countBookedRoomsOnRangeDate = async (fromDate, toDate) => {
     attributes: ['roomTypeId', [Sequelize.fn('sum', Sequelize.col('quantity')), 'count']],
     where: {
       status: ['Active', 'Pending'],
-      [Op.or]: [
-        { checkInDate: { [Op.and]: [{ [Op.gte]: fromDate }, { [Op.lt]: toDate }] } },
-        { checkOutDate: { [Op.and]: [{ [Op.gt]: fromDate }, { [Op.lte]: toDate }] } },
-        {
-          [Op.and]: [
-            { checkInDate: { [Op.lte]: fromDate } },
-            { checkOutDate: { [Op.gt]: fromDate } },
-          ]
-        }
-      ]
+      [Op.and]: [{ checkInDate: { [Op.lt]: toDate } }, { checkOutDate: { [Op.gt]: fromDate } }]
     },
     group: ['roomTypeId'],
     raw: true
@@ -36,22 +31,16 @@ const getBookingsByRoomTypeAndRangeDate = async ({ roomTypeId, fromDate, toDate 
     where: {
       roomTypeId,
       status: ['Active', 'Pending'],
-      [Op.or]: [
-        { checkInDate: { [Op.and]: [{ [Op.gte]: fromDate }, { [Op.lt]: toDate }] } },
-        { checkOutDate: { [Op.and]: [{ [Op.gt]: fromDate }, { [Op.lte]: toDate }] } },
-        {
-          [Op.and]: [
-            { checkInDate: { [Op.lte]: fromDate } },
-            { checkOutDate: { [Op.gt]: fromDate } },
-          ]
-        }
-      ]
-    }
-  })
+      [Op.and]: [{ checkInDate: { [Op.lt]: toDate } }, { checkOutDate: { [Op.gt]: fromDate } }]
+    },
+  });
 }
 
-const updateBooking = async (bookingDto, opts) => {
-  return await Booking.update(bookingDto, opts)
+const updateBooking = async (id, bookingDto, opts = {}) => {
+  return await Booking.update(bookingDto, {
+    ...opts,
+    where: { id }
+  })
 }
 
 
@@ -60,5 +49,6 @@ module.exports = {
   countBookedRoomsOnRangeDate,
   getBookingsByRoomTypeAndRangeDate,
   getBookingsByUserId,
-  updateBooking
+  updateBooking,
+  getBookingById
 }

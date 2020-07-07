@@ -8,15 +8,8 @@ const getUserBookings = async (userId) => {
 }
 
 const bookRoomOnRangeDate = async ({ userId, roomTypeId, quantity, fromDate, toDate }) => {
-  const availableRoomTypes = await roomServices.getRoomTypesByRangeDate(fromDate, toDate);
-
-  const availableRoomType = availableRoomTypes.find(r => r.id === roomTypeId);
-  if (!availableRoomType || availableRoomType.quantity < quantity) {
-    throw Error(bookingErrors.ROOM_NOT_AVAILABLE);
-  }
-
   const availableRooms = await roomServices.getAvailableRoomsByRangeDate({ roomTypeId, quantity, fromDate, toDate });
-  if (!availableRooms.length) {
+  if (!availableRooms.length < quantity) {
     throw Error(bookingErrors.ROOM_NOT_AVAILABLE);
   }
 

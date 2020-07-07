@@ -13,7 +13,7 @@ router.post('/permissions', async (req, res) => {
   const { method, resource } = req.body;
 
   permissionServices.createPermission(method, resource)
-    .then((permission) => { return res.status(200).send(permission) })
+    .then(permission => { return res.status(200).send(permission) })
     .catch((e) => { return res.status(400).send(e.message) });
 });
 
@@ -25,7 +25,7 @@ router.delete('/permissions/:id', async (req, res) => {
     .catch(e => { return res.status(400).send(e.message) });
 })
 
-router.post('/grantPermission', async (req, res) => {
+router.post('/grant-permission', async (req, res) => {
   const { roleId, permissionIds } = req.body;
 
   permissionServices.grantPermissions(roleId, permissionIds)
@@ -33,7 +33,7 @@ router.post('/grantPermission', async (req, res) => {
     .catch(e => { return res.status(400).send(e.message) });
 });
 
-router.post('/denyPermission', async (req, res) => {
+router.post('/deny-permission', async (req, res) => {
   const { roleId, permissionId } = req.body;
 
   permissionServices.denyPermission(roleId, permissionId)

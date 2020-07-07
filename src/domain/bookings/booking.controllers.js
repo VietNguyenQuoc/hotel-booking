@@ -1,6 +1,9 @@
 const router = require('express').Router();
 const bookingServices = require('./booking.services');
+const bookingSchemas = require('../../infra/schemas/booking');
+const validate = require('../../app/middlewares/validator');
 const _ = require('lodash');
+const logger = require('../../infra/logger');
 
 router.get('/', async (req, res) => {
   const { userId } = req.userInfo;
@@ -26,7 +29,7 @@ router.get('/', async (req, res) => {
     .catch(e => { return res.status(400).send(e.message) })
 });
 
-router.post('/', async (req, res) => {
+router.post('/', validate(bookingSchemas.createBooking), async (req, res) => {
   const { userId } = req.userInfo;
   const { roomTypeId, quantity, fromDate, toDate } = req.body;
 
@@ -44,14 +47,17 @@ router.post('/cancel', async (req, res) => {
     .catch(e => { return res.status(400).send(e.message) })
 });
 
-router.put('/:id', async (req, res) => {
+router.put('/:id', validate(bookingSchemas.updateBooking), async (req, res) => {
   const { userId } = req.userInfo;
-  const { id: bookingId } = req.params;
+  const bookingId = parseInt(req.params.id, 10);
   const { roomTypeId, quantity, fromDate, toDate } = req.body;
 
   bookingServices.updateBooking({ bookingId, userId, roomTypeId, quantity, fromDate, toDate })
     .then(() => { return res.status(200).send("Your booking is succesfully updated.") })
-    .catch(e => { return res.status(400).send(e.message) })
+    .catch(e => {
+      logger.error(e.stack);
+      return res.status(400).send(e.message)
+    })
 })
 
 module.exports = router;

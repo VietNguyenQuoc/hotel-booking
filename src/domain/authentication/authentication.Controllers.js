@@ -3,7 +3,7 @@ const authenticationService = require('./authenticationService');
 const { facebookMethod, githubMethod, googleMethod } = require('./methods');
 const logger = require('../../infra/logger');
 const validate = require('../../app/middlewares/validator');
-const { signUpRules } = require('../../infra/schemas/Authentication');
+const { signUpRules } = require('../../infra/schemas/authentication');
 const { validateRefreshToken } = require('../../app/middlewares/validateUser');
 
 router.use('/google', googleMethod);

@@ -14,7 +14,7 @@ const generateToken = require('../../../infra/utils/generateToken');
 const verifyToken = require('../../../infra/utils/verifyToken');
 const redisClient = require('../../../infra/db/redis');
 
-const signUp = async ({ email, password, firstName, lastName }, { needVerify = false }) => {
+const signUp = async ({ email, password, firstName, lastName }, opts = {}) => {
   const isSignUp = await userRepository.getUserByEmail(email);
   if (isSignUp) throw Error(authenticationErrors.EMAIL_EXISTS);
 
@@ -25,8 +25,8 @@ const signUp = async ({ email, password, firstName, lastName }, { needVerify = f
   const userDto = UserModel({ email, firstName, lastName, roleId: userRole.id });
   let returnMessage;
 
-  if (needVerify) {
-    userDto.confirm = false
+  if (opts.needVerify) {
+    userDto.confirm = false;
     returnMessage = `We will send you an email to ${email} to confirm the registration.`;
 
     const verifyToken = generateToken({ email }, { expiresIn: '30m' });
@@ -117,23 +117,21 @@ const forgetPassword = async email => {
 
 const resetPassword = async ({ token, password, confirmPassword }) => {
   // Check if the token is expired
-  try {
-    const { email } = await verifyResetPasswordToken(token);
-    if (password !== confirmPassword) throw Error(authenticationErrors.INVALID_CONFIRM_PASSWORD);
+  if (password !== confirmPassword) throw Error(authenticationErrors.INVALID_CONFIRM_PASSWORD);
 
-    const salt = await bcrypt.genSalt(10);
-    const hashPassword = await bcrypt.hash(password, salt);
-    const user = await userRepository.getUserByEmail(email);
-    userCredentialRepository.updateUserCredentialPassword(user.id, hashPassword);
-  } catch (e) {
+  const { email } = await verifyResetPasswordToken(token).catch(e => {
     if (e.message.match(/expire/)) {
       throw Error(authenticationErrors.VERIFY_CODE_EXPIRE);
     }
     if (e.message.match(/signature/)) {
       throw Error(authenticationErrors.INVALID_RESET_PASSWORD_TOKEN);
     }
-    throw e;
-  }
+  });
+
+  const salt = await bcrypt.genSalt(10);
+  const hashPassword = await bcrypt.hash(password, salt);
+  const user = await userRepository.getUserByEmail(email);
+  userCredentialRepository.updateUserCredentialPassword(user.id, hashPassword);
 }
 
 const generateResetPasswordToken = (payload, oldPasswordHash, options) => {
