@@ -29,7 +29,7 @@
     "morgan": "^1.10.0",
     "mysql2": "^2.1.0",
     "node-notifier": "^7.0.0",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "rewire": "^5.0.0",
     "sequelize": "^5.21.8",
     "validatorjs": "^3.18.1",
