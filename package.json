@@ -22,7 +22,7 @@
     "express-session": "^1.17.1",
     "googleapis": "^50.0.0",
     "ioredis": "^4.17.3",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "matchit": "^1.0.8",
     "moment": "^2.27.0",
